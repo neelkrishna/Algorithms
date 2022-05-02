@@ -1,0 +1,25 @@
+*/User/*
+*/Backups/*
+*Cache/*
+*/CachedData/*
+*/CachedExtensions/*
+*/Code Cache/*
+*/Crashpad/*
+*/GPUCache/*
+*/LocalStorage/*
+*/logs/*
+*/node_modules/*
+*/out/*
+*/Service Worker/*
+*/Session Storage/*
+
+Cookies
+Cookies-journal
+CrashpadMetrics-active.pma
+machineid
+Network Persistent State
+QuotaManager
+QuotaManager-journal
+storage.json
+TransportSecurity
+tsconfig.tsbuildinfo

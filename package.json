@@ -1,0 +1,14 @@
+{
+    "version": "1.0.0",
+    "scripts": {
+        "start": "node out/app.js",
+        "prestart": "npm run build",
+        "build": "tsc"
+    },
+    "devDependencies": {
+        "@types/node": "^17.0.24"
+    },
+    "dependencies": {
+        "girl": "^1.0.4"
+    }
+}

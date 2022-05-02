@@ -1,0 +1,27 @@
+Initial: [6,3,8,2,1,0]
+
+//calls divide
+
+low = 6 3 8
+high = 2 1 0
+
+calls low = divide(low)
+items now 6 3 8
+low = 6 3
+high = 8
+
+halflength = length/2 rounded up, so = 2
+low = divide low again
+
+low = 6 high = 3
+
+
+moves on to combine
+
+
+Reverse String
+
+first round
+
+s left becomes y
+s right becomes h
