@@ -37,3 +37,13 @@ export class KnapsackObj {
     weight: number;
     profit: number;
 }
+
+export class DFSGraph {
+    public adj: number[][];
+    public size: number;
+}
+
+export class BFSGraph {
+    public adj: Array<number>[];
+    public size: number;
+}
