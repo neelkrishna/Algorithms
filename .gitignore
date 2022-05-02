@@ -1,17 +1,17 @@
-*/User/*
-*/Backups/*
-*Cache/*
-*/CachedData/*
-*/CachedExtensions/*
-*/Code Cache/*
-*/Crashpad/*
-*/GPUCache/*
-*/LocalStorage/*
-*/logs/*
-*/node_modules/*
-*/out/*
-*/Service Worker/*
-*/Session Storage/*
+User/*
+Backups/*
+Cache/*
+CachedData/*
+CachedExtensions/*
+Code Cache/*
+Crashpad/*
+GPUCache/*
+LocalStorage/*
+logs/*
+node_modules/*
+out/*
+Service Worker/*
+Session Storage/*
 
 Cookies
 Cookies-journal
@@ -23,3 +23,4 @@ QuotaManager-journal
 storage.json
 TransportSecurity
 tsconfig.tsbuildinfo
+.DS_Store
