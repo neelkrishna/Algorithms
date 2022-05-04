@@ -1,4 +1,4 @@
-export function combinationSum(candidates: number[], target: number): number[][] {
+export function combinationSumConfusing(candidates: number[], target: number): number[][] {
     let results: number[][] = [];
     
     function backtrack(movingTarget: number, solution: number[], index: number) {
@@ -15,3 +15,20 @@ export function combinationSum(candidates: number[], target: number): number[][]
     backtrack(target, [], 0);
     return results;
 };
+
+export function combinationSum(candidates: number[], target: number): number[][] {
+    let results: number[][] = [];
+
+    function backtrack(index: number, cur: number[], sum: number) {
+        if(sum == target) results.push([...cur]);
+        if(index > candidates.length || sum > target) return;
+
+        cur.push(candidates[index]);
+        backtrack(index, cur, sum + candidates[index]);
+
+        cur.pop();
+        backtrack(index + 1, cur, sum);
+    }
+    backtrack(0, [], 0);
+    return results;
+}
