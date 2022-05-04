@@ -12,6 +12,7 @@ node_modules/*
 out/*
 Service Worker/*
 Session Storage/*
+Local Storage/*
 
 Cookies
 Cookies-journal
@@ -24,3 +25,4 @@ storage.json
 TransportSecurity
 tsconfig.tsbuildinfo
 .DS_Store
+languagepacks.json
