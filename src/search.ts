@@ -125,3 +125,12 @@ export function postOrderTraversal(node: BinaryTreeNode): void {
     preOrderTraversal(node.rightChild);
     console.log(node.val);
 }
+
+export function binarySearch(nums: number[], target: number, low: number, high: number): boolean {
+    if(low > high) return false;
+    nums.sort((a, b) => a - b);
+    let mid: number = Math.floor((high + low)/2);
+    if(target == nums[mid]) return true;
+    if(target < mid) return binarySearch(nums, target, low, mid - 1);
+    if(target > mid) return binarySearch(nums, target, mid + 1, high);
+}
