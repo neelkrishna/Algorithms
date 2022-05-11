@@ -1,4 +1,4 @@
-import { inOrderTraversal, preOrderTraversal, postOrderTraversal, addStrings } from "./meta";
+
 import { BinaryTreeNode } from "./classes";
 import { trap } from "./trapWater";
 import { combinationSum } from "./combinationSum";
@@ -7,10 +7,11 @@ import { generateParenthesis } from "./parenthesis";
 import { levelOrder } from "./levelOrderTraversal";
 import { binarySearch } from "./search";
 import { countToTen, secondGradeDivision } from "./swathi";
+import { addStrings } from "./trainPractice";
 
 class App {
     public static start() {
-        console.log(secondGradeDivision(9, 2));
+        console.log(addStrings("999", "8888"));
     }
 }
 
