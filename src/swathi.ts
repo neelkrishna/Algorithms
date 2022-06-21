@@ -28,3 +28,7 @@ export function secondGradeDivision(dividend: number, divisor: number): string {
 export function teachingVijay() {
     // hello world
 }
+
+export function test() {
+    
+}
