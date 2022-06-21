@@ -24,3 +24,7 @@ export function secondGradeDivision(dividend: number, divisor: number): string {
     return count + " remainder " + remainder;
 
 }
+
+export function teachingVijay() {
+    // hello world
+}
