@@ -24,7 +24,7 @@ export class BinaryTreeNode {
 export class TreeNode {
     val: number;
     children: TreeNode[]
-    visited: boolean = false;
+    visited ?: boolean = false;
 
     constructor(val?: number, children?: TreeNode[]) {
         this.val = val; 
