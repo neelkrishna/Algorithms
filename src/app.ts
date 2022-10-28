@@ -1,4 +1,3 @@
-import { reverse } from "./fromVenice";
 import { jump } from "./toJFK";
 
 class App {
